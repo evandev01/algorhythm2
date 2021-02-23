@@ -1,0 +1,33 @@
+// search page
+
+search by artist, album, song
+
+pulls up corresponding list of music
+
+can play any song or album from search page
+
+can add song or album to playlist
+
+==model
+song
+    id
+    artistName
+    songTitle
+    albumTitle
+    mp3
+    albumArt
+    
+
+// playlist page
+has list of playlists
+has songs saved to specific playlist
+
+==model
+playlist
+    id
+    playlistName
+    songId (songs by songId)
+
+// selected playlist page ?
+    when a playlist is selected takes to another url with songs in playlist
+
